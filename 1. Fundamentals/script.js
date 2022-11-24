@@ -15,5 +15,15 @@
 // console.log(typeof isEmployed);
 // console.log(typeof department);
 
+// let, const
+// let day = "Monday";
+// console.log(day);
+
+// day = "Tuesday";
+// console.log(day);
+
+// const birthDate = 22;
+// console.log(birthDate);
+// birthDate = 25; // error => cannot reassign to const variable
 
 
