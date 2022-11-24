@@ -1,0 +1,10 @@
+Data types.
+1. Number - Floating point numbers -> Used for decimals and integers i.e. let age = 23;
+2. String - Sequence of characters -> Used for text i.e. let firstName = "Shah;
+3. Boolean - Logical type that can only be true or false i.e. Used for taking decisions  let answer = true;
+4. Undefined - Empty value => let age;
+5. Null - Also means "Empty value" 
+6. Symbol - Value that is unique and cannot be changed. 
+7. BigInt - Larger integers that the  Number type can hold.
+
+JavaScript has dynamic typing. 
