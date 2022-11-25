@@ -28,18 +28,18 @@
 
 //-------------------------------------------------------------------
 //Operator
-const now = 2000;
-const numb1 = now + 25;
-const numb2 = now - 25;
-const numb3 = now * 25;
-const numb4 = now / 25;
-console.log(numb1, numb2, numb3, numb4, 2 ** 3); // ** means 2 power 3
+// const now = 2000;
+// const numb1 = now + 25;
+// const numb2 = now - 25;
+// const numb3 = now * 25;
+// const numb4 = now / 25;
+// console.log(numb1, numb2, numb3, numb4, 2 ** 3); // ** means 2 power 3
 
 
-const firstName = "Shah";
-const lastName = "Raza";
+// const firstName = "Shah";
+// const lastName = "Raza";
 
-console.log(firstName + " " + lastName); // string concat
+// console.log(firstName + " " + lastName); // string concat
 // Assignment operator
 // let x = 10;
 // x = 10 + 5;
@@ -53,3 +53,17 @@ console.log(firstName + " " + lastName); // string concat
 
 // console.log(a > b); //false
 // console.log(a >= 10); // true
+
+
+//-------------------------------------------------------------------
+// String and template literal
+// const firstName = "Shah";
+// const job = "Software developer";
+// const hometown = "New Delhi";
+
+// const details = "Hi! My name is " + firstName + ". I'm a " + job + " from " + hometown + ".";
+// console.log(details);
+
+// const newDetails = `Hi! My name is ${firstName} . I'm a ${job} from ${hometown}`; // template literal
+// console.log(newDetails);
+
