@@ -90,25 +90,51 @@
 //-------------------------------------------------------------------
 // Type conversion and type coercion
 // String to Number
-let userAge = "21";
-console.log(Number(userAge), userAge);
+// let userAge = "21";
+// console.log(Number(userAge), userAge);
 
-let userName = "Shah";
-console.log(Number(userName)); // Not a number NAN
+// let userName = "Shah";
+// console.log(Number(userName)); // Not a number NAN
 
-let userDOB = 22;
-console.log(String(userDOB), userDOB);
+// let userDOB = 22;
+// console.log(String(userDOB), userDOB);
 
-console.log("I'm " + 23 + "year old");
-console.log("23" + "24"); //2324
-console.log("23" - "24"); // -1 
-console.log("Shah" + "Raza"); // ShahRaza
-console.log("Shah" - "Raza"); // NAN
+// console.log("I'm " + 23 + "year old");
+// console.log("23" + "24"); //2324
+// console.log("23" - "24"); // -1 
+// console.log("Shah" + "Raza"); // ShahRaza
+// console.log("Shah" - "Raza"); // NAN
 
 
-let n = "1" + 1; //"11"
-let m = n - 1; // 10
-console.log(m);
+// let n = "1" + 1; //"11"
+// let m = n - 1; // 10
+// console.log(m);
 
+
+//-------------------------------------------------------------------
+// Truthy and falsy value
+
+console.log(Boolean(0)); // false
+console.log(Boolean("Shah")); //true
+console.log(Boolean({})); //true
+console.log(Boolean("")); //false
+
+let money = 0;
+
+if (money) {
+    console.log(" Hello ");
+}
+else {
+    console.log(" hi ");
+}
+
+let height = 0; // Beacuse of falsy value
+
+if (height) {
+    console.log("Height is defined");
+}
+else {
+    console.log("Height is not defined");
+}
 
 
