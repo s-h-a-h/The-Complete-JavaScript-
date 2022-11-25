@@ -101,7 +101,7 @@
 
 // console.log("I'm " + 23 + "year old");
 // console.log("23" + "24"); //2324
-// console.log("23" - "24"); // -1 
+// console.log("23" - "24"); // -1
 // console.log("Shah" + "Raza"); // ShahRaza
 // console.log("Shah" - "Raza"); // NAN
 
@@ -114,27 +114,33 @@
 //-------------------------------------------------------------------
 // Truthy and falsy value
 
-console.log(Boolean(0)); // false
-console.log(Boolean("Shah")); //true
-console.log(Boolean({})); //true
-console.log(Boolean("")); //false
+// console.log(Boolean(0)); // false
+// console.log(Boolean("Shah")); //true
+// console.log(Boolean({})); //true
+// console.log(Boolean("")); //false
 
-let money = 0;
+// let money = 0;
 
-if (money) {
-    console.log(" Hello ");
-}
-else {
-    console.log(" hi ");
-}
+// if (money) {
+//     console.log(" Hello ");
+// }
+// else {
+//     console.log(" hi ");
+// }
 
-let height = 0; // Beacuse of falsy value
+// let height = 0; // Beacuse of falsy value
 
-if (height) {
-    console.log("Height is defined");
-}
-else {
-    console.log("Height is not defined");
-}
+// if (height) {
+//     console.log("Height is defined");
+// }
+// else {
+//     console.log("Height is not defined");
+// }
 
 
+//-------------------------------------------------------------------
+// == & ===
+
+// let age = "18";
+
+// console.log(age == 18, age === 18); // true , false
