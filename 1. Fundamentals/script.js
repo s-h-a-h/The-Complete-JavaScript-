@@ -144,3 +144,21 @@
 // let age = "18";
 
 // console.log(age == 18, age === 18); // true , false
+
+
+//-------------------------------------------------------------------
+//Logical operator
+const hasDrivingLicense = false;
+const hasGoodVision = true;
+const isTired = true;
+
+if (hasDrivingLicense || hasGoodVision) {
+    console.log(`You can drive`);
+}
+
+if (hasDrivingLicense && hasGoodVision && !isTired) {
+    console.log(`You can drive`);
+}
+else {
+    console.log(`You can't drive`);
+}
