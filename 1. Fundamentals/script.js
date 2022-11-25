@@ -148,17 +148,48 @@
 
 //-------------------------------------------------------------------
 //Logical operator
-const hasDrivingLicense = false;
-const hasGoodVision = true;
-const isTired = true;
+// const hasDrivingLicense = false;
+// const hasGoodVision = true;
+// const isTired = true;
 
-if (hasDrivingLicense || hasGoodVision) {
-    console.log(`You can drive`);
-}
+// if (hasDrivingLicense || hasGoodVision) {
+//     console.log(`You can drive`);
+// }
 
-if (hasDrivingLicense && hasGoodVision && !isTired) {
-    console.log(`You can drive`);
-}
-else {
-    console.log(`You can't drive`);
+// if (hasDrivingLicense && hasGoodVision && !isTired) {
+//     console.log(`You can drive`);
+// }
+// else {
+//     console.log(`You can't drive`);
+// }
+
+
+//-------------------------------------------------------------------
+//Switch statement
+const day = "monday";
+
+switch (day) {
+    case "monday":
+        console.log("Today is monday");
+        break;
+    case "tuesday":
+        console.log("Today is tuesday");
+        break;
+    case "wednesday":
+        console.log("Today is wednesday");
+        break;
+    case "thursday":
+        console.log("Today is thursday");
+        break;
+    case "friday":
+        console.log("Today is friday");
+        break;
+    case "saturday":
+        console.log("Today is saturday");
+        break;
+    case "sunday":
+        console.log("Today is sunday");
+        break;
+    default:
+        console.log("Not a valid day");
 }
