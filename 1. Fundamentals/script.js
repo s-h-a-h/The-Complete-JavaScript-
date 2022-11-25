@@ -202,3 +202,17 @@
 
 // Example of expression are 23 + 23 , true && false , 24
 // Example of statement  if {} else {}
+
+
+//-------------------------------------------------------------------
+// The conditional (ternary) operator
+
+const age = 23;
+
+age >= 18 ? console.log(`I want to drink wine "🍷"`) : console.log(`I want to drink water "💧"`)
+
+const drink = age >= 18 ? "wine 🍷" : "water 💧";
+console.log(`I want to drink ${drink}`);
+
+
+console.log(` I link to drink ${age >= 18 ? "wine 🍷" : "water 💧"}`);
