@@ -67,3 +67,6 @@
 // const newDetails = `Hi! My name is ${firstName} . I'm a ${job} from ${hometown}`; // template literal
 // console.log(newDetails);
 
+// console.log(`Multiple
+// Lines`);
+
