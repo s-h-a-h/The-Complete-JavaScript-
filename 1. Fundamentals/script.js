@@ -87,4 +87,28 @@
 // }
 
 
+//-------------------------------------------------------------------
+// Type conversion and type coercion
+// String to Number
+let userAge = "21";
+console.log(Number(userAge), userAge);
+
+let userName = "Shah";
+console.log(Number(userName)); // Not a number NAN
+
+let userDOB = 22;
+console.log(String(userDOB), userDOB);
+
+console.log("I'm " + 23 + "year old");
+console.log("23" + "24"); //2324
+console.log("23" - "24"); // -1 
+console.log("Shah" + "Raza"); // ShahRaza
+console.log("Shah" - "Raza"); // NAN
+
+
+let n = "1" + 1; //"11"
+let m = n - 1; // 10
+console.log(m);
+
+
 
