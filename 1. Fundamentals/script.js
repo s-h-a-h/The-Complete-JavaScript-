@@ -70,3 +70,21 @@
 // console.log(`Multiple
 // Lines`);
 
+
+//-------------------------------------------------------------------
+//If else
+
+// const alexAge = 15;
+// const rahulAge = 25;
+// const aliAge = 18;
+// const legalAge = 18;
+
+// if (aliAge >= legalAge) {
+//     console.log(`Congrats! You are eligable`);
+// }
+// else {
+//     console.log(`Try next year`);
+// }
+
+
+
