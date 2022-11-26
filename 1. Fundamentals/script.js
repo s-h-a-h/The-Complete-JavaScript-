@@ -191,7 +191,7 @@
 //         console.log("Today is sunday");
 //         break;
 //     default:
-//         console.log("Not a valid day");
+//         console.log("Please enter a valid day");
 // }
 
 
